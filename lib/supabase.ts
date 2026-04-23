@@ -4,7 +4,7 @@ import * as SecureStore from 'expo-secure-store';
 
 // TODO: Add EXPO_PUBLIC_SUPABASE_ANON_KEY to .env.local
 const SUPABASE_URL = 'https://bvlvsqjasjfjotddhred.supabase.co';
-const SUPABASE_ANON_KEY = process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY ?? '';
+const SUPABASE_ANON_KEY = process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY ?? 'sb_publishable_tjZ1xPO1CsPcS3C2fBPKAA_852x6N9z';
 
 const ExpoSecureStoreAdapter = {
   getItem: (key: string) => SecureStore.getItemAsync(key),
