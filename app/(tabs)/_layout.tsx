@@ -1,13 +1,28 @@
 import { Tabs } from 'expo-router';
 import { View, Text } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 
-function TabIcon({ focused, emoji, label }: { focused: boolean; emoji: string; label: string }) {
+type IoniconName = React.ComponentProps<typeof Ionicons>['name'];
+
+function TabIcon({
+  focused,
+  icon,
+  iconFocused,
+  label,
+}: {
+  focused: boolean;
+  icon: IoniconName;
+  iconFocused: IoniconName;
+  label: string;
+}) {
   return (
-    <View className="items-center gap-1 pt-1">
-      <Text style={{ fontSize: 20 }}>{emoji}</Text>
-      <Text
-        className={`text-xs font-semibold ${focused ? 'text-buzz-yellow' : 'text-muted'}`}
-      >
+    <View className="items-center gap-0.5 pt-1">
+      <Ionicons
+        name={focused ? iconFocused : icon}
+        size={22}
+        color={focused ? '#FFD60A' : '#666666'}
+      />
+      <Text className={`text-xs font-semibold ${focused ? 'text-buzz-yellow' : 'text-muted'}`}>
         {label}
       </Text>
     </View>
@@ -33,23 +48,20 @@ export default function TabsLayout() {
         name="home"
         options={{
           tabBarIcon: ({ focused }) => (
-            <TabIcon focused={focused} emoji="⚡" label="Home" />
+            <TabIcon focused={focused} icon="home-outline" iconFocused="home" label="Home" />
           ),
         }}
       />
       <Tabs.Screen
-        name="campaigns"
+        name="submissions"
         options={{
           tabBarIcon: ({ focused }) => (
-            <TabIcon focused={focused} emoji="🎯" label="Earn" />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="earnings"
-        options={{
-          tabBarIcon: ({ focused }) => (
-            <TabIcon focused={focused} emoji="💰" label="Earnings" />
+            <TabIcon
+              focused={focused}
+              icon="layers-outline"
+              iconFocused="layers"
+              label="Buzz"
+            />
           ),
         }}
       />
@@ -57,7 +69,12 @@ export default function TabsLayout() {
         name="profile"
         options={{
           tabBarIcon: ({ focused }) => (
-            <TabIcon focused={focused} emoji="👤" label="Profile" />
+            <TabIcon
+              focused={focused}
+              icon="person-outline"
+              iconFocused="person"
+              label="Profile"
+            />
           ),
         }}
       />

@@ -29,6 +29,8 @@ export default function RootLayout() {
       <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: '#0A0A0A' } }}>
         <Stack.Screen name="(auth)" />
         <Stack.Screen name="(tabs)" />
+        <Stack.Screen name="hive" />
+        <Stack.Screen name="submit" />
       </Stack>
     </QueryClientProvider>
   );

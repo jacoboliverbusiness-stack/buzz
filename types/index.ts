@@ -1,64 +1,70 @@
-export type Platform = 'tiktok' | 'instagram';
+export type Platform = 'tiktok' | 'instagram' | 'youtube';
 export type SubmissionStatus = 'pending' | 'approved' | 'rejected' | 'paid';
-export type CampaignStatus = 'active' | 'paused' | 'ended';
 export type PayoutStatus = 'pending' | 'processing' | 'completed' | 'failed';
+export type Tier = 'worker' | 'drone' | 'queen';
+export type ContentTypeName =
+  | 'talking_head'
+  | 'skit'
+  | 'demo'
+  | 'slideshow'
+  | 'pov'
+  | 'clipping';
 
-export interface User {
+export interface UserProfile {
   id: string;
   phone: string | null;
   email: string | null;
+  username: string | null;
   tiktok_handle: string | null;
   instagram_handle: string | null;
+  youtube_handle: string | null;
   stripe_connect_id: string | null;
+  tier: Tier;
+  total_earned: number;
+  total_views: number;
+  campaigns_completed: number;
   created_at: string;
 }
 
-export interface Campaign {
+export interface HiveContentType {
   id: string;
-  brand_id: string;
-  title: string;
-  brief: string;
-  source_content_urls: string[];
+  hive_id: string;
+  type: ContentTypeName;
+  label: string;
+  base_payout: number;
   cpm_rate: number;
-  budget_total: number;
-  budget_remaining: number;
-  max_payout_per_clip: number;
-  min_payout_threshold: number;
-  status: CampaignStatus;
-  starts_at: string;
-  ends_at: string;
-  brand?: Brand;
+  min_views: number;
+  max_payout: number;
+  is_active: boolean;
 }
 
-export interface Brand {
+export interface Hive {
   id: string;
   name: string;
-  contact_email: string;
-  stripe_customer_id: string | null;
+  tagline: string;
   logo_url: string | null;
-}
-
-export interface Clip {
-  id: string;
-  user_id: string;
-  campaign_id: string;
-  vizard_job_id: string;
-  clip_urls: string[];
-  generated_at: string;
+  app_store_url: string | null;
+  play_store_url: string | null;
+  is_verified: boolean;
+  content_types: HiveContentType[];
+  created_at: string;
 }
 
 export interface Submission {
   id: string;
-  clip_id: string;
   user_id: string;
-  campaign_id: string;
+  hive_id: string;
+  content_type: ContentTypeName;
+  content_type_label: string;
   platform: Platform;
   post_url: string;
+  screenshot_url: string | null;
   view_count: number;
   last_verified_at: string | null;
   status: SubmissionStatus;
   earnings_amount: number;
-  campaign?: Campaign;
+  submitted_at: string;
+  hive?: Pick<Hive, 'id' | 'name' | 'logo_url'>;
 }
 
 export interface Payout {
