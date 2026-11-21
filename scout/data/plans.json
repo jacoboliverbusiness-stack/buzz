@@ -1,0 +1,28 @@
+{
+  "_comment": "Plan limits are data, not code. Edit here (or set SCOUT_PLANS_JSON) and redeploy; Stripe price IDs come from env. See docs/unit-economics.md for the cost basis.",
+  "plans": [
+    {
+      "id": "preview",
+      "name": "Free preview",
+      "priceMonthlyUsd": 0,
+      "stripePriceEnv": null,
+      "limits": { "scansPerMonth": 1, "matchesPerScan": 20, "visibleEmailDrafts": 3, "revealContacts": false, "regenerationsPerMonth": 0, "managedSending": false, "autoFollowUps": false, "replyInbox": false, "ongoingDiscovery": false }
+    },
+    {
+      "id": "starter",
+      "name": "Starter",
+      "priceMonthlyUsd": 39,
+      "stripePriceEnv": "STRIPE_PRICE_STARTER",
+      "limits": { "scansPerMonth": 4, "matchesPerScan": 25, "visibleEmailDrafts": 1000, "revealContacts": true, "regenerationsPerMonth": 60, "managedSending": false, "autoFollowUps": false, "replyInbox": false, "ongoingDiscovery": false },
+      "features": ["Up to 100 college matches a month", "Verified coaching contacts", "Personalized email drafts", "Recruiting dashboard"]
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "priceMonthlyUsd": 79,
+      "stripePriceEnv": "STRIPE_PRICE_PRO",
+      "limits": { "scansPerMonth": 10, "matchesPerScan": 40, "visibleEmailDrafts": 1000, "revealContacts": true, "regenerationsPerMonth": 250, "managedSending": true, "autoFollowUps": true, "replyInbox": true, "ongoingDiscovery": true },
+      "features": ["Up to 400 college matches a month", "More coach contacts per program", "Managed sending (when available)", "Automated follow-ups", "Reply inbox", "Ongoing opportunity discovery"]
+    }
+  ]
+}

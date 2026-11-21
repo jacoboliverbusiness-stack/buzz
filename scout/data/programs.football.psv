@@ -1,0 +1,354 @@
+# division|conference|school|city|state|athletics site
+# Seed list of real football programs. Coaches and rosters are NOT stored here: they are
+# fetched from each program's official site by the ingestion job and refreshed on a schedule.
+# Conference affiliations change; `npm run ingest` re-verifies sites and records verifiedAt.
+FBS|SEC|University of Alabama|Tuscaloosa|AL|rolltide.com
+FBS|SEC|Auburn University|Auburn|AL|auburntigers.com
+FBS|SEC|University of Georgia|Athens|GA|georgiadogs.com
+FBS|SEC|University of Florida|Gainesville|FL|floridagators.com
+FBS|SEC|LSU|Baton Rouge|LA|lsusports.net
+FBS|SEC|University of Tennessee|Knoxville|TN|utsports.com
+FBS|SEC|Texas A&M University|College Station|TX|12thman.com
+FBS|SEC|University of Texas|Austin|TX|texassports.com
+FBS|SEC|University of Oklahoma|Norman|OK|soonersports.com
+FBS|SEC|University of Missouri|Columbia|MO|mutigers.com
+FBS|SEC|University of Arkansas|Fayetteville|AR|arkansasrazorbacks.com
+FBS|SEC|Ole Miss|Oxford|MS|olemisssports.com
+FBS|SEC|Mississippi State University|Starkville|MS|hailstate.com
+FBS|SEC|University of Kentucky|Lexington|KY|ukathletics.com
+FBS|SEC|University of South Carolina|Columbia|SC|gamecocksonline.com
+FBS|SEC|Vanderbilt University|Nashville|TN|vucommodores.com
+FBS|Big Ten|Ohio State University|Columbus|OH|ohiostatebuckeyes.com
+FBS|Big Ten|University of Michigan|Ann Arbor|MI|mgoblue.com
+FBS|Big Ten|Penn State University|University Park|PA|gopsusports.com
+FBS|Big Ten|University of Wisconsin|Madison|WI|uwbadgers.com
+FBS|Big Ten|University of Iowa|Iowa City|IA|hawkeyesports.com
+FBS|Big Ten|University of Nebraska|Lincoln|NE|huskers.com
+FBS|Big Ten|University of Minnesota|Minneapolis|MN|gophersports.com
+FBS|Big Ten|University of Illinois|Champaign|IL|fightingillini.com
+FBS|Big Ten|Purdue University|West Lafayette|IN|purduesports.com
+FBS|Big Ten|Indiana University|Bloomington|IN|iuhoosiers.com
+FBS|Big Ten|Michigan State University|East Lansing|MI|msuspartans.com
+FBS|Big Ten|Northwestern University|Evanston|IL|nusports.com
+FBS|Big Ten|University of Maryland|College Park|MD|umterps.com
+FBS|Big Ten|Rutgers University|Piscataway|NJ|scarletknights.com
+FBS|Big Ten|University of Oregon|Eugene|OR|goducks.com
+FBS|Big Ten|University of Washington|Seattle|WA|gohuskies.com
+FBS|Big Ten|UCLA|Los Angeles|CA|uclabruins.com
+FBS|Big Ten|USC|Los Angeles|CA|usctrojans.com
+FBS|ACC|Clemson University|Clemson|SC|clemsontigers.com
+FBS|ACC|Florida State University|Tallahassee|FL|seminoles.com
+FBS|ACC|University of Miami|Coral Gables|FL|miamihurricanes.com
+FBS|ACC|University of North Carolina|Chapel Hill|NC|goheels.com
+FBS|ACC|NC State University|Raleigh|NC|gopack.com
+FBS|ACC|Duke University|Durham|NC|goduke.com
+FBS|ACC|Wake Forest University|Winston-Salem|NC|godeacs.com
+FBS|ACC|University of Virginia|Charlottesville|VA|virginiasports.com
+FBS|ACC|Virginia Tech|Blacksburg|VA|hokiesports.com
+FBS|ACC|University of Louisville|Louisville|KY|gocards.com
+FBS|ACC|University of Pittsburgh|Pittsburgh|PA|pittsburghpanthers.com
+FBS|ACC|Syracuse University|Syracuse|NY|cuse.com
+FBS|ACC|Boston College|Chestnut Hill|MA|bceagles.com
+FBS|ACC|Georgia Tech|Atlanta|GA|ramblinwreck.com
+FBS|ACC|University of California, Berkeley|Berkeley|CA|calbears.com
+FBS|ACC|Stanford University|Stanford|CA|gostanford.com
+FBS|ACC|SMU|Dallas|TX|smumustangs.com
+FBS|Big 12|University of Kansas|Lawrence|KS|kuathletics.com
+FBS|Big 12|Kansas State University|Manhattan|KS|kstatesports.com
+FBS|Big 12|Iowa State University|Ames|IA|cyclones.com
+FBS|Big 12|Oklahoma State University|Stillwater|OK|okstate.com
+FBS|Big 12|TCU|Fort Worth|TX|gofrogs.com
+FBS|Big 12|Baylor University|Waco|TX|baylorbears.com
+FBS|Big 12|Texas Tech University|Lubbock|TX|texastech.com
+FBS|Big 12|West Virginia University|Morgantown|WV|wvusports.com
+FBS|Big 12|University of Cincinnati|Cincinnati|OH|gobearcats.com
+FBS|Big 12|University of Houston|Houston|TX|uhcougars.com
+FBS|Big 12|UCF|Orlando|FL|ucfknights.com
+FBS|Big 12|BYU|Provo|UT|byucougars.com
+FBS|Big 12|University of Utah|Salt Lake City|UT|utahutes.com
+FBS|Big 12|University of Arizona|Tucson|AZ|arizonawildcats.com
+FBS|Big 12|Arizona State University|Tempe|AZ|thesundevils.com
+FBS|Big 12|University of Colorado|Boulder|CO|cubuffs.com
+FBS|Independent|University of Notre Dame|Notre Dame|IN|fightingirish.com
+FBS|Pac-12|Boise State University|Boise|ID|broncosports.com
+FBS|Pac-12|Colorado State University|Fort Collins|CO|csurams.com
+FBS|Pac-12|Fresno State|Fresno|CA|gobulldogs.com
+FBS|Pac-12|San Diego State University|San Diego|CA|goaztecs.com
+FBS|Pac-12|Utah State University|Logan|UT|utahstateaggies.com
+FBS|Pac-12|Oregon State University|Corvallis|OR|osubeavers.com
+FBS|Pac-12|Washington State University|Pullman|WA|wsucougars.com
+FBS|Pac-12|Texas State University|San Marcos|TX|txst.com
+FBS|Mountain West|Air Force Academy|Colorado Springs|CO|goairforcefalcons.com
+FBS|Mountain West|University of Wyoming|Laramie|WY|gowyo.com
+FBS|Mountain West|UNLV|Las Vegas|NV|unlvrebels.com
+FBS|Mountain West|University of Nevada|Reno|NV|nevadawolfpack.com
+FBS|Mountain West|University of New Mexico|Albuquerque|NM|golobos.com
+FBS|Mountain West|University of Hawaii|Honolulu|HI|hawaiiathletics.com
+FBS|Mountain West|San Jose State University|San Jose|CA|sjsuspartans.com
+FBS|Mountain West|Northern Illinois University|DeKalb|IL|niuhuskies.com
+FBS|Mountain West|UTEP|El Paso|TX|utepminers.com
+FBS|American|University of Memphis|Memphis|TN|gotigersgo.com
+FBS|American|Tulane University|New Orleans|LA|tulanegreenwave.com
+FBS|American|Naval Academy|Annapolis|MD|navysports.com
+FBS|American|Army West Point|West Point|NY|goarmywestpoint.com
+FBS|American|East Carolina University|Greenville|NC|ecupirates.com
+FBS|American|University of South Florida|Tampa|FL|gousfbulls.com
+FBS|American|University of Tulsa|Tulsa|OK|tulsahurricane.com
+FBS|American|Rice University|Houston|TX|riceowls.com
+FBS|American|University of North Texas|Denton|TX|meangreensports.com
+FBS|American|UTSA|San Antonio|TX|goutsa.com
+FBS|American|UNC Charlotte|Charlotte|NC|charlotte49ers.com
+FBS|American|Temple University|Philadelphia|PA|owlsports.com
+FBS|American|UAB|Birmingham|AL|uabsports.com
+FBS|American|Florida Atlantic University|Boca Raton|FL|fausports.com
+FBS|Sun Belt|Appalachian State University|Boone|NC|appstatesports.com
+FBS|Sun Belt|Coastal Carolina University|Conway|SC|goccusports.com
+FBS|Sun Belt|Georgia Southern University|Statesboro|GA|gseagles.com
+FBS|Sun Belt|Georgia State University|Atlanta|GA|georgiastatesports.com
+FBS|Sun Belt|James Madison University|Harrisonburg|VA|jmusports.com
+FBS|Sun Belt|Marshall University|Huntington|WV|herdzone.com
+FBS|Sun Belt|Old Dominion University|Norfolk|VA|odusports.com
+FBS|Sun Belt|Troy University|Troy|AL|troytrojans.com
+FBS|Sun Belt|University of South Alabama|Mobile|AL|usajaguars.com
+FBS|Sun Belt|University of Louisiana|Lafayette|LA|ragincajuns.com
+FBS|Sun Belt|Arkansas State University|Jonesboro|AR|astateredwolves.com
+FBS|Sun Belt|University of Southern Mississippi|Hattiesburg|MS|southernmiss.com
+FBS|MAC|University of Toledo|Toledo|OH|utrockets.com
+FBS|MAC|Ohio University|Athens|OH|ohiobobcats.com
+FBS|MAC|Miami University|Oxford|OH|miamiredhawks.com
+FBS|MAC|Bowling Green State University|Bowling Green|OH|bgsufalcons.com
+FBS|MAC|Kent State University|Kent|OH|kentstatesports.com
+FBS|MAC|University of Akron|Akron|OH|gozips.com
+FBS|MAC|University at Buffalo|Buffalo|NY|ubbulls.com
+FBS|MAC|Ball State University|Muncie|IN|ballstatesports.com
+FBS|MAC|Central Michigan University|Mount Pleasant|MI|cmuchippewas.com
+FBS|MAC|Western Michigan University|Kalamazoo|MI|wmubroncos.com
+FBS|MAC|Eastern Michigan University|Ypsilanti|MI|emueagles.com
+FBS|Conference USA|Liberty University|Lynchburg|VA|libertyflames.com
+FBS|Conference USA|Western Kentucky University|Bowling Green|KY|wkusports.com
+FBS|Conference USA|Middle Tennessee State University|Murfreesboro|TN|goblueraiders.com
+FBS|Conference USA|Jacksonville State University|Jacksonville|AL|jsugamecocksports.com
+FBS|Conference USA|Sam Houston State University|Huntsville|TX|gobearkats.com
+FBS|Conference USA|Louisiana Tech University|Ruston|LA|latechsports.com
+FBS|Conference USA|New Mexico State University|Las Cruces|NM|nmstatesports.com
+FBS|Conference USA|Florida International University|Miami|FL|fiusports.com
+FBS|Conference USA|Kennesaw State University|Kennesaw|GA|ksuowls.com
+FBS|Conference USA|Missouri State University|Springfield|MO|missouristatebears.com
+FBS|Conference USA|University of Delaware|Newark|DE|bluehens.com
+FCS|Missouri Valley|North Dakota State University|Fargo|ND|gobison.com
+FCS|Missouri Valley|South Dakota State University|Brookings|SD|gojacks.com
+FCS|Missouri Valley|University of South Dakota|Vermillion|SD|goyotes.com
+FCS|Missouri Valley|University of North Dakota|Grand Forks|ND|fightinghawks.com
+FCS|Missouri Valley|University of Northern Iowa|Cedar Falls|IA|unipanthers.com
+FCS|Missouri Valley|Illinois State University|Normal|IL|goredbirds.com
+FCS|Missouri Valley|Southern Illinois University|Carbondale|IL|siusalukis.com
+FCS|Missouri Valley|Youngstown State University|Youngstown|OH|ysusports.com
+FCS|Missouri Valley|Indiana State University|Terre Haute|IN|gosycamores.com
+FCS|Missouri Valley|Murray State University|Murray|KY|goracers.com
+FCS|Big Sky|University of Montana|Missoula|MT|gogriz.com
+FCS|Big Sky|Montana State University|Bozeman|MT|msubobcats.com
+FCS|Big Sky|UC Davis|Davis|CA|ucdavisaggies.com
+FCS|Big Sky|Weber State University|Ogden|UT|weberstatesports.com
+FCS|Big Sky|University of Idaho|Moscow|ID|govandals.com
+FCS|Big Sky|Idaho State University|Pocatello|ID|isubengals.com
+FCS|Big Sky|Eastern Washington University|Cheney|WA|goeags.com
+FCS|Big Sky|Northern Arizona University|Flagstaff|AZ|nauathletics.com
+FCS|Big Sky|Portland State University|Portland|OR|goviks.com
+FCS|Big Sky|University of Northern Colorado|Greeley|CO|uncbears.com
+FCS|Big Sky|Cal Poly|San Luis Obispo|CA|gopoly.com
+FCS|CAA|Villanova University|Villanova|PA|villanova.com
+FCS|CAA|William & Mary|Williamsburg|VA|tribeathletics.com
+FCS|CAA|Elon University|Elon|NC|elonphoenix.com
+FCS|CAA|University of Rhode Island|Kingston|RI|gorhody.com
+FCS|CAA|University of Maine|Orono|ME|goblackbears.com
+FCS|CAA|University of New Hampshire|Durham|NH|unhwildcats.com
+FCS|CAA|Monmouth University|West Long Branch|NJ|monmouthhawks.com
+FCS|CAA|Stony Brook University|Stony Brook|NY|stonybrookathletics.com
+FCS|CAA|Towson University|Towson|MD|towsontigers.com
+FCS|CAA|University at Albany|Albany|NY|ualbanysports.com
+FCS|CAA|North Carolina A&T|Greensboro|NC|ncataggies.com
+FCS|CAA|Campbell University|Buies Creek|NC|gocamels.com
+FCS|Patriot League|University of Richmond|Richmond|VA|richmondspiders.com
+FCS|Patriot League|Lafayette College|Easton|PA|goleopards.com
+FCS|Patriot League|Lehigh University|Bethlehem|PA|lehighsports.com
+FCS|Patriot League|College of the Holy Cross|Worcester|MA|goholycross.com
+FCS|Patriot League|Bucknell University|Lewisburg|PA|bucknellbison.com
+FCS|Patriot League|Colgate University|Hamilton|NY|gocolgateraiders.com
+FCS|Patriot League|Fordham University|Bronx|NY|fordhamsports.com
+FCS|Patriot League|Georgetown University|Washington|DC|guhoyas.com
+FCS|Ivy League|Harvard University|Cambridge|MA|gocrimson.com
+FCS|Ivy League|Yale University|New Haven|CT|yalebulldogs.com
+FCS|Ivy League|Princeton University|Princeton|NJ|goprincetontigers.com
+FCS|Ivy League|University of Pennsylvania|Philadelphia|PA|pennathletics.com
+FCS|Ivy League|Dartmouth College|Hanover|NH|dartmouthsports.com
+FCS|Ivy League|Brown University|Providence|RI|brownbears.com
+FCS|Ivy League|Columbia University|New York|NY|gocolumbialions.com
+FCS|Ivy League|Cornell University|Ithaca|NY|cornellbigred.com
+FCS|SoCon|Furman University|Greenville|SC|furmanpaladins.com
+FCS|SoCon|University of Tennessee at Chattanooga|Chattanooga|TN|gomocs.com
+FCS|SoCon|Mercer University|Macon|GA|mercerbears.com
+FCS|SoCon|Wofford College|Spartanburg|SC|woffordterriers.com
+FCS|SoCon|Samford University|Birmingham|AL|samfordsports.com
+FCS|SoCon|Western Carolina University|Cullowhee|NC|catamountsports.com
+FCS|SoCon|The Citadel|Charleston|SC|citadelsports.com
+FCS|SoCon|VMI|Lexington|VA|vmikeydets.com
+FCS|SoCon|East Tennessee State University|Johnson City|TN|etsubucs.com
+FCS|UAC|Southern Utah University|Cedar City|UT|suutbirds.com
+FCS|UAC|Tarleton State University|Stephenville|TX|tarletonsports.com
+FCS|UAC|Abilene Christian University|Abilene|TX|acusports.com
+FCS|UAC|University of Central Arkansas|Conway|AR|ucasports.com
+FCS|UAC|Austin Peay State University|Clarksville|TN|letsgopeay.com
+FCS|UAC|Eastern Kentucky University|Richmond|KY|ekusports.com
+FCS|Southland|University of the Incarnate Word|San Antonio|TX|uiwcardinals.com
+FCS|Southland|Southeastern Louisiana University|Hammond|LA|lionsports.net
+FCS|Southland|McNeese State University|Lake Charles|LA|mcneesesports.com
+FCS|Southland|Nicholls State University|Thibodaux|LA|geauxcolonels.com
+FCS|Southland|Lamar University|Beaumont|TX|lamarcardinals.com
+FCS|Southland|Stephen F. Austin State University|Nacogdoches|TX|sfajacks.com
+FCS|SWAC|Jackson State University|Jackson|MS|gojsutigers.com
+FCS|SWAC|Southern University|Baton Rouge|LA|gojagsports.com
+FCS|SWAC|Grambling State University|Grambling|LA|gsutigers.com
+FCS|SWAC|Prairie View A&M University|Prairie View|TX|pvpanthers.com
+FCS|SWAC|Alabama State University|Montgomery|AL|bamastatesports.com
+FCS|SWAC|Florida A&M University|Tallahassee|FL|famuathletics.com
+FCS|MEAC|South Carolina State University|Orangeburg|SC|scsuathletics.com
+FCS|MEAC|Howard University|Washington|DC|hubison.com
+FCS|OVC|Eastern Illinois University|Charleston|IL|eiupanthers.com
+FCS|OVC|Southeast Missouri State University|Cape Girardeau|MO|semoredhawks.com
+FCS|OVC|Tennessee Tech University|Cookeville|TN|ttusports.com
+FCS|OVC|UT Martin|Martin|TN|utmsports.com
+FCS|Big South-OVC|Gardner-Webb University|Boiling Springs|NC|gwusports.com
+FCS|NEC|Duquesne University|Pittsburgh|PA|goduquesne.com
+FCS|Pioneer|University of Dayton|Dayton|OH|daytonflyers.com
+FCS|Pioneer|University of San Diego|San Diego|CA|usdtoreros.com
+FCS|Pioneer|Drake University|Des Moines|IA|godrakebulldogs.com
+FCS|Pioneer|Butler University|Indianapolis|IN|butlersports.com
+FCS|Pioneer|Valparaiso University|Valparaiso|IN|valpoathletics.com
+D2|GLIAC|Ferris State University|Big Rapids|MI|ferrisstatebulldogs.com
+D2|GLIAC|Grand Valley State University|Allendale|MI|gvsulakers.com
+D2|Gulf South|Valdosta State University|Valdosta|GA|vstateblazers.com
+D2|Gulf South|University of West Florida|Pensacola|FL|goargos.com
+D2|Gulf South|Delta State University|Cleveland|MS|gostatesmen.com
+D2|Great American|Harding University|Searcy|AR|hardingsports.com
+D2|Great American|Ouachita Baptist University|Arkadelphia|AR|obutigers.com
+D2|Great American|Henderson State University|Arkadelphia|AR|hsureddies.com
+D2|MIAA|Northwest Missouri State University|Maryville|MO|bearcatsports.com
+D2|MIAA|Pittsburg State University|Pittsburg|KS|pittstategorillas.com
+D2|MIAA|Washburn University|Topeka|KS|wusports.com
+D2|MIAA|University of Central Missouri|Warrensburg|MO|ucmathletics.com
+D2|MIAA|Emporia State University|Emporia|KS|esuhornets.com
+D2|MIAA|Missouri Western State University|St. Joseph|MO|gogriffons.com
+D2|MIAA|University of Nebraska at Kearney|Kearney|NE|lopers.com
+D2|NSIC|Minnesota State University, Mankato|Mankato|MN|msumavericks.com
+D2|NSIC|Augustana University|Sioux Falls|SD|goaugie.com
+D2|NSIC|University of Sioux Falls|Sioux Falls|SD|usfcougars.com
+D2|NSIC|Bemidji State University|Bemidji|MN|bsubeavers.com
+D2|NSIC|University of Minnesota Duluth|Duluth|MN|umdbulldogs.com
+D2|RMAC|Colorado School of Mines|Golden|CO|minesathletics.com
+D2|RMAC|CSU Pueblo|Pueblo|CO|gothunderwolves.com
+D2|RMAC|Western Colorado University|Gunnison|CO|gomountaineers.com
+D2|RMAC|Chadron State College|Chadron|NE|csceagles.com
+D2|PSAC|Slippery Rock University|Slippery Rock|PA|rockathletics.com
+D2|PSAC|Kutztown University|Kutztown|PA|kubears.com
+D2|PSAC|Shepherd University|Shepherdstown|WV|shepherdrams.com
+D2|PSAC|Indiana University of Pennsylvania|Indiana|PA|iupathletics.com
+D2|PSAC|West Chester University|West Chester|PA|wcupagoldenrams.com
+D2|Lone Star|Angelo State University|San Angelo|TX|angelosports.com
+D2|Lone Star|West Texas A&M University|Canyon|TX|gobuffsgo.com
+D2|Lone Star|Midwestern State University|Wichita Falls|TX|msumustangs.com
+D2|Lone Star|Texas A&M University-Kingsville|Kingsville|TX|javelinaathletics.com
+D2|Lone Star|Central Washington University|Ellensburg|WA|wildcatsports.com
+D2|Lone Star|Western Oregon University|Monmouth|OR|wouwolves.com
+D2|South Atlantic|Lenoir-Rhyne University|Hickory|NC|lrbears.com
+D2|South Atlantic|Newberry College|Newberry|SC|newberrywolves.com
+D2|South Atlantic|Tusculum University|Greeneville|TN|tusculumpioneers.com
+D2|CIAA|Bowie State University|Bowie|MD|bsubulldogs.com
+D2|CIAA|Virginia Union University|Richmond|VA|vuuathletics.com
+D2|SIAC|Tuskegee University|Tuskegee|AL|goskiptigers.com
+D2|G-MAC|Ashland University|Ashland|OH|goashlandeagles.com
+D2|G-MAC|Hillsdale College|Hillsdale|MI|hillsdalechargers.com
+D2|G-MAC|University of Findlay|Findlay|OH|findlayoilers.com
+D2|Mountain East|Fairmont State University|Fairmont|WV|fightingfalcons.com
+D2|Mountain East|University of Charleston|Charleston|WV|ucgoldeneagles.com
+D2|NE10|Assumption University|Worcester|MA|assumptiongreyhounds.com
+D3|OAC|University of Mount Union|Alliance|OH|athletics.mountunion.edu
+D3|OAC|John Carroll University|University Heights|OH|jcusports.com
+D3|OAC|Baldwin Wallace University|Berea|OH|bwyellowjackets.com
+D3|CCIW|North Central College|Naperville|IL|northcentralcardinals.com
+D3|CCIW|Washington University in St. Louis|St. Louis|MO|bearsports.wustl.edu
+D3|ASC|University of Mary Hardin-Baylor|Belton|TX|umhbsports.com
+D3|MIAC|Saint John's University|Collegeville|MN|gojohnnies.com
+D3|MIAC|Bethel University|St. Paul|MN|bethelroyals.com
+D3|WIAC|University of Wisconsin-Whitewater|Whitewater|WI|uwwsports.com
+D3|WIAC|University of Wisconsin-La Crosse|La Crosse|WI|uwlathletics.com
+D3|WIAC|University of Wisconsin-River Falls|River Falls|WI|uwrfsports.com
+D3|WIAC|University of Wisconsin-Oshkosh|Oshkosh|WI|uwoshkoshtitans.com
+D3|Northwest|Linfield University|McMinnville|OR|golinfieldwildcats.com
+D3|Northwest|Whitworth University|Spokane|WA|whitworthpirates.com
+D3|Centennial|Johns Hopkins University|Baltimore|MD|hopkinssports.com
+D3|Centennial|Muhlenberg College|Allentown|PA|muhlenbergsports.com
+D3|Liberty League|Ithaca College|Ithaca|NY|athletics.ithaca.edu
+D3|Liberty League|Springfield College|Springfield|MA|springfieldcollegepride.com
+D3|Empire 8|SUNY Cortland|Cortland|NY|cortlandreddragons.com
+D3|NESCAC|Williams College|Williamstown|MA|ephsports.williams.edu
+D3|NESCAC|Amherst College|Amherst|MA|athletics.amherst.edu
+D3|NESCAC|Middlebury College|Middlebury|VT|athletics.middlebury.edu
+D3|NESCAC|Trinity College|Hartford|CT|bantamsports.com
+D3|NESCAC|Tufts University|Medford|MA|gotuftsjumbos.com
+D3|NESCAC|Bowdoin College|Brunswick|ME|athletics.bowdoin.edu
+D3|NESCAC|Bates College|Lewiston|ME|gobatesbobcats.com
+D3|PAC|Carnegie Mellon University|Pittsburgh|PA|athletics.cmu.edu
+D3|PAC|Case Western Reserve University|Cleveland|OH|athletics.case.edu
+D3|NCAC|Wabash College|Crawfordsville|IN|sports.wabash.edu
+D3|NCAC|DePauw University|Greencastle|IN|depauwtigers.com
+D3|NCAC|Denison University|Granville|OH|denisonbigred.com
+D3|NCAC|Wittenberg University|Springfield|OH|wittenbergtigers.com
+D3|MAC (D3)|Delaware Valley University|Doylestown|PA|delvalaggies.com
+D3|ARC|Wartburg College|Waverly|IA|go.wartburg.edu
+D3|ARC|Central College|Pella|IA|athletics.central.edu
+D3|ARC|Coe College|Cedar Rapids|IA|coekohawks.com
+D3|SAA|Trinity University|San Antonio|TX|trinitytigers.com
+D3|SAA|Berry College|Mount Berry|GA|berryvikings.com
+D3|SAA|Centre College|Danville|KY|centrecolonels.com
+D3|SAA|Sewanee: The University of the South|Sewanee|TN|sewaneetigers.com
+D3|USA South|Huntingdon College|Montgomery|AL|huntingdonhawks.com
+D3|ODAC|Randolph-Macon College|Ashland|VA|rmcathletics.com
+D3|ODAC|Washington and Lee University|Lexington|VA|generalssports.com
+D3|NJAC|Rowan University|Glassboro|NJ|rowanathletics.com
+D3|NJAC|Salisbury University|Salisbury|MD|suseagles.com
+D3|SCIAC|Pomona-Pitzer Colleges|Claremont|CA|sagehens.com
+D3|SCIAC|University of Redlands|Redlands|CA|goredlands.com
+D3|MIAA (MI)|Hope College|Holland|MI|athletics.hope.edu
+NAIA|Heart|Grand View University|Des Moines|IA|gvvikings.com
+NAIA|Heart|Benedictine College|Atchison|KS|ravenathletics.com
+NAIA|Heart|Baker University|Baldwin City|KS|bakerwildcats.com
+NAIA|GPAC|Northwestern College|Orange City|IA|nwcraiders.com
+NAIA|GPAC|Morningside University|Sioux City|IA|morningsidemustangs.com
+NAIA|GPAC|Concordia University Nebraska|Seward|NE|cunebulldogs.com
+NAIA|Mid-South|Lindsey Wilson University|Columbia|KY|lindseyathletics.com
+NAIA|Mid-South|Reinhardt University|Waleska|GA|reinhardteagles.com
+NAIA|Mid-South|Campbellsville University|Campbellsville|KY|campbellsvilletigers.com
+NAIA|Frontier|Carroll College|Helena|MT|carrollsaints.com
+NAIA|Frontier|Montana Tech|Butte|MT|mtorediggers.com
+NAIA|Frontier|Southern Oregon University|Ashland|OR|souraiders.com
+NAIA|Frontier|College of Idaho|Caldwell|ID|yoteathletics.com
+NAIA|Frontier|Dickinson State University|Dickinson|ND|dsubluehawks.com
+NAIA|KCAC|Kansas Wesleyan University|Salina|KS|kwucoyotes.com
+NAIA|KCAC|Ottawa University|Ottawa|KS|ottawabraves.com
+NAIA|KCAC|Bethel College|North Newton|KS|bethelthreshers.com
+NAIA|Mid-States|Marian University|Indianapolis|IN|muknights.com
+NAIA|Mid-States|Saint Xavier University|Chicago|IL|sxucougars.com
+NAIA|Sooner|Langston University|Langston|OK|langstonsports.com
+NAIA|Sooner|Texas Wesleyan University|Fort Worth|TX|ramsports.net
+NJCAA|KJCCC|Hutchinson Community College|Hutchinson|KS|hutchbluedragons.com
+NJCAA|KJCCC|Butler Community College|El Dorado|KS|butlergrizzlies.com
+NJCAA|KJCCC|Garden City Community College|Garden City|KS|gcccbroncbusters.com
+NJCAA|KJCCC|Independence Community College|Independence|KS|indyccpirates.com
+NJCAA|MACJC|Northwest Mississippi Community College|Senatobia|MS|nwccrangers.com
+NJCAA|SWJCFC|Blinn College|Brenham|TX|blinnbuccaneers.com
+NJCAA|SWJCFC|Trinity Valley Community College|Athens|TX|tvcccardinals.com
+NJCAA|SWJCFC|Navarro College|Corsicana|TX|navarrobulldogs.com
+NJCAA|SWJCFC|Kilgore College|Kilgore|TX|kilgorerangers.com
+NJCAA|Independent|Snow College|Ephraim|UT|snowbadgers.com
+NJCAA|Independent|Lackawanna College|Scranton|PA|lackawannafalcons.com
+NJCAA|Independent|Georgia Military College|Milledgeville|GA|gmcbulldogs.com
